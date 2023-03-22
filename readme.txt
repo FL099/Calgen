@@ -1,5 +1,10 @@
-In stdData.csv stehen die Standardwerte(kann man auch verändern)
-das beim ausführen angegebene File muss im selben Folder sein, oder mit absolutem Pfad (zb: "C:\Users\...") angegeben werden
-momentan ist nur die Ausgabe in ics("ical") files möglich
-der Befehl zum ausführen lautet:  java -jar Calgen.jar <Format> <Inputfile.csv>
+In stdData.csv stehen die Standardwerte(kann man auch verÃ¤ndern)
+
+* mit scripts: 
+	* zuerst das create..., fragt nach filenamen (wird dann auch fÃ¼r ical verwendet)
+	* dann generate..., fÃ¤hrt die unteren Befehle mit Standardwerten/Input aus
+
+* das beim ausfÃ¼hren angegebene File muss im selben Folder sein, oder mit absolutem Pfad (zb: "C:\Users\...") angegeben werden
+momentan ist nur die Ausgabe in ics("ical") files mÃ¶glich
+der Befehl zum ausfÃ¼hren lautet:  java -jar Calgen.jar <Format> <Inputfile.csv>
 wobei <> nur Platzhalternamen darstellen und in echt ohne <> geschrieben werden
