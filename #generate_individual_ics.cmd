@@ -9,7 +9,7 @@ ECHO Auf diese Art geht es einfacher, als sich die Befehle zu kopieren oder sie 
 set /P id="Name der einzulesenden Datei: " 
 
 
-java -jar CalendarExport.jar ics %id%.csv
+java -jar CalendarExport.jar %id%.csv -i ics
 
 chcp %cp%>nul
 

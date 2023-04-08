@@ -6,7 +6,7 @@ TITLE Calendar generation
 
 ECHO Auf diese Art geht es einfacher, als sich die Befehle zu kopieren oder sie sich zu merken
 
-java -jar CalendarExport.jar ics Input.csv S
+java -jar CalendarExport.jar Input.csv -i ics -S
 
 chcp %cp%>nul
 
